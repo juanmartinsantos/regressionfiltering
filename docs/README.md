@@ -23,7 +23,7 @@ Real-world datasets usually contain noise, which can affect both classification 
 <br>
  
 ## <a name="Datasets"></a> 2. Real-world datasets
-This research considers 20 different regression datasets taken from the *UCI machine learning* and *KEEL-dataset* repositories.
+This research considers 20 different regression datasets taken from the *UCI machine learning* and *KEEL-dataset* repositories. Different noise levels (ranging from x = 5% to x = 30%, by increments of 5%) are introduced into them. These datasets are shown in the following figure, along with the number of attributes (#at) and samples (#sa) for each one.
 
 <center>
 <a href="#img2"><img src="sb-datasets.png" width="600"></a>
@@ -41,9 +41,9 @@ These datasets can be downloaded from the web-pages:
 
 |<a href="#img1"><img src="bannercolor.jpg" width="750" height="10"></a>|<a href="#img1"><img src="bannercolor.jpg" width="100" height="10"></a>|
 |:---|:---:|
-|&nbsp;&nbsp;&nbsp;**-** *RMSE results for RPART applying the regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_RPART_git.xlsx?raw=true)|
-|&nbsp;&nbsp;&nbsp;**-** *RMSE results for NN applying the regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_NN_git.xlsx?raw=true)|
-|&nbsp;&nbsp;&nbsp;**-** *RMSE results for SVM applying the regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_SVM_git.xlsx?raw=true)|
-|&nbsp;&nbsp;&nbsp;**-** *RMSE results for ELM applying the regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_ELM_git.xlsx?raw=true)|
-|&nbsp;&nbsp;&nbsp;**-** *RMSE results for XGBoost applying the regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_XGBoost_git.xlsx?raw=true)|
+|&nbsp;&nbsp;&nbsp;**-** *RMSE results of RPART using regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_RPART_git.xlsx?raw=true)|
+|&nbsp;&nbsp;&nbsp;**-** *RMSE results of NN using regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_NN_git.xlsx?raw=true)|
+|&nbsp;&nbsp;&nbsp;**-** *RMSE results of SVM using regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_SVM_git.xlsx?raw=true)|
+|&nbsp;&nbsp;&nbsp;**-** *RMSE results of ELM using regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_ELM_git.xlsx?raw=true)|
+|&nbsp;&nbsp;&nbsp;**-** *RMSE results of XGBoost using regression noise filters.* | [<img src="icon-excel.png" width="50">](https://github.com/juanmartinsantos/regressionfiltering/blob/main/docs/RMSE_XGBoost_git.xlsx?raw=true)|
 |<a href="#img1"><img src="bannercolor.jpg" width="750" height="10"></a>|<a href="#img1"><img src="bannercolor.jpg" width="100" height="10"></a>|
